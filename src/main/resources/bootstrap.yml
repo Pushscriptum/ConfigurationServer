@@ -12,3 +12,5 @@ spring:
         git:
           uri: https://github.com/Pushscriptum/ConfigurationServer.git
           search-paths: licensingservice
+          password: (5K0Uw!g'
+          username: pushscriptum@mail.ru
