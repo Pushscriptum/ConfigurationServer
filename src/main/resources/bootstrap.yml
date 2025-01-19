@@ -11,4 +11,6 @@ spring:
           search-locations: classpath:/config
         git:
           uri: https://github.com/Pushscriptum/ConfigurationServer.git
-          search-paths: licensingservice
+          search-paths: src/main/resources/config
+          password: (5K0Uw!g'
+          username: pushscriptum@mail.ru
