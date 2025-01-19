@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  config-service:
+    build: .
+    image: config-service:latest
+    container_name: config-service
+    ports:
+      - "8071:8071"
+    networks:
+      - optima
+networks:
+  optima:
+    name: optima
+    driver: bridge
